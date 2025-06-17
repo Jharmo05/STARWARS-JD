@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Star Wars - Personajes | Campusland</title>
+
+    <link rel="stylesheet" href="./characters.css">
+
+    <link rel="shortcut icon" href="/img/darth_vader.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/a747b09475.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="/img/starwarslogo.png" alt="logo" class="logo-img"/>
+            </div>
+        </a>
+
+        <div class="menu">
+            <a href="/index.html">
+                <span>Inicio</span>
+            </a>
+            <a href="/species.html">
+                <span>Especies</span>
+            </a>
+            <a href="/planets.html">
+                <span>Planetas</span>
+            </a>
+            <a href="/starships.html">
+                <span>Naves</span>
+            </a>
+            <a href="/vehicles.html">
+                <span>Vehículos</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Conoce a todos los personajes de StarWars en un solo lugar</h2>
+
+        <div class="main-content" id="contenido-principal">
+            </div>
+
+        <div class="modal" id="modal" onclick="ocultarModal()">
+            <div class="modal-content" id="modal-content">
+                </div>
+        </div>
+
+        <div class="botones">
+            <button id="boton-anterior" disabled>Anterior</button>
+            <button id="boton-siguiente" disabled>Siguiente</button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-logo">StarWars</p>
+        <p class="copyright">Desarrollado por &copy; Daniel Vinasco y Jhon Ardila</p>
+
+    </footer>
+
+    <script src="./characters.js"></script>
+
+</body>
+</html>
